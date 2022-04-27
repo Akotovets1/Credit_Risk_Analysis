@@ -88,4 +88,4 @@ Data analysts were asked to examine credit card data from a peer-to-peer lending
 For this dataset, the Easy Ensemble AdaBoost Classifier is the best model because it has 0.93 balanced accuracy (the highest compared accuracy between 0 and 1 and is closest to 1 is the best machine learning model).
 The Easy Ensemble AdaBoost Classifier also has the highest recall score (the better model needs to has the recall score closer to 1).
 
-So, the best supervised machine learning model for further credit card analysis is the Easy Ensemble AdaBoost Classifier. Out of the six machine learning algorithms tested, Easy Ensemble AdaBoost Classifier performed the best overall.
+So, the best supervised machine learning model for further credit card analysis is the Easy Ensemble AdaBoost Classifier. Out of the six machine learning algorithms tested, Easy Ensemble AdaBoost Classifier performed the best result.
