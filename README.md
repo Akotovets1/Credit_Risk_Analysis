@@ -18,31 +18,74 @@ Data analysts were asked to examine credit card data from a peer-to-peer lending
 
 ### Naive Random Oversampling
 
+![Pic 1](https://github.com/Akotovets1/Credit_Risk_Analysis/blob/main/Module-17-Challenge/images/1.png)
+
+1.Balanced Accuracy: 0.6497536370265621
+
+2.Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+
+3.Recall: High/Low risk = 0.62/0.68
+
 
 
 ### SMOTE Oversampling
 
+![Pic 2](https://github.com/Akotovets1/Credit_Risk_Analysis/blob/main/Module-17-Challenge/images/2.png)
+
+1.Balanced Accuracy: 0.6443721269403855
+
+2.Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+
+3.Recall: High/Low risk = 0.63/0.66
 
 
 ### Undersampling
 
+![Pic 3](https://github.com/Akotovets1/Credit_Risk_Analysis/blob/main/Module-17-Challenge/images/3.png)
+
+1.Balanced Accuracy: 0.6443721269403855
+
+2.Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+
+3.Recall: High/Low risk = 0.61/0.45 
+
 
 ### Combination Under-Over Sampling
+
+![Pic 4](https://github.com/Akotovets1/Credit_Risk_Analysis/blob/main/Module-17-Challenge/images/4.png)
+
+1.Balanced Accuracy:  0.529127435931526
+
+2.Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+
+3.Recall: High/Low risk = 0.70/0.57
 
 
 
 ### Balanced Random Forest Classifier
 
+![Pic 5](https://github.com/Akotovets1/Credit_Risk_Analysis/blob/main/Module-17-Challenge/images/5.png)
+
+1.Balanced Accuracy: 0.7877672625306695
+
+2.Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+
+3.Recall: High/Low risk = 0.67/0.91
 
 ### Easy Ensemble AdaBoost Classifier
 
+![Pic 6](https://github.com/Akotovets1/Credit_Risk_Analysis/blob/main/Module-17-Challenge/images/6.png)
+
+1.Balanced Accuracy: 0.9316600714093861
+
+2.Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+
+3.Recall: High/Low risk = 0.67/0.91
 
 
 ## Summary
 
-When working with balanced accuracy, the highest compared accuracy between 0 and 1 and is closest to 1 is the best machine learning model. For the credit card data set, the Easy Ensemble AdaBoost Classifier is the best model to choose with its .93 balanced accuracy. The other models were below .80 balanced accuracy. The precision for all models were similar and within an appropriate range. The recall score also needs to fall within 0 and 1, with numbers closer to 1 being the better model. The Easy Ensemble AdaBoost Classifier had the highest recall score, making it the final best machine learning model to choose for further credit card analysis.
+For this dataset, the Easy Ensemble AdaBoost Classifier is the best model because it has 0.93 balanced accuracy (the highest compared accuracy between 0 and 1 and is closest to 1 is the best machine learning model).
+The Easy Ensemble AdaBoost Classifier also has the highest recall score (the better model needs to has the recall score closer to 1).
 
-
-The oversampling, undersampling, and combination sampling algorithms' performance were relatively the same. Balanced Random Forest Classifier had a higher balanced accuracy score than the previous algorithms tested, but it was not good enough for predicting credit risk.
-
-Out of the six supervised machine learning algorithms tested, Easy Ensemble AdaBoost CLassifier performed the best overall.  It had a balanced accuracy score, along with high precision and recall scores.  It also had a high specificity score, which means this algorithm correctly determined actual negatives 91% of the time, and a high F1 score.  This means the harmonic mean of precision and recall were 0.97 out of 1.0.
+So, the best machine learning model for further credit card analysis is the Easy Ensemble AdaBoost Classifier. Out of the six supervised machine learning algorithms tested, Easy Ensemble AdaBoost CLassifier performed the best overall.
